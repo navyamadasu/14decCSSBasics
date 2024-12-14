@@ -1,0 +1,69 @@
+CSS – Cascading styling sheet
+Enhance visuals of our web page
+CSS3(Version 3)
+1.Inline CSS:
+Properties are directly applied to the tag.
+2.Internal css:
+Properties are applied on the head section of HTML file using style tag.
+3.External CSS:
+You have create new file with css extension, link it with HTML file.
+*********************************************Selectors**********************************************************
+Selectors:
+A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+Uses:
+selectors are used to target the HTML elements on our web pages that we want to style.
+1.Tag selector-
+The tag selector in CSS is used to select and style HTML elements based on their tag name. The tag name is the name of the HTML element, such as <p> , <h1> , <div> , etc. 
+2.Class selector-(.) dot  
+class selector is used to select all elements which belong to a particular class attribute. 
+Multiple values can be provided to class
+Same value can be given to different tags
+3.ID selector -(#)
+A CSS ID selector uses the ID attribute of an HTML element to select one unique element on a page. To use an ID selector in CSS, you simply write a hashtag (#) followed by the ID of the element.
+In one file ,one value of id should not be repeated
+conflict, css file may not work as per your choice.
+ 
+4.Universal selector-(*) (Asterisk)
+The asterisk (*) is known as the CSS universal selectors. It can be used to select any and all types of elements in an HTML page.
+It should written on top off  external css file.
+5.Pseudo selector
+6.Attribute selector-href
+***********************************************Box Model********************************************************
+
+Box model – 
+
+The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages.
+       Use:
+The box model allows us to add a border around elements, and to define space between elements.
+      Properties
+content -The content of the box, where text and images appear
+Padding- Clears an area around the content. The padding is transparent
+(top right bottom left)
+border-A border that goes around the padding and content
+Margin-Clears an area outside the border. The margin is transparent
+******************************************Positions********************************************************
+Position property:
+Sets how an element is positioned in the document
+1.static  -
+Static is the default position for HTML elements. Elements with position: static are positioned based on the normal flow of the page, as you would expect them to be without any CSS styling. They are not affected by the top, right, bottom, or left properties. Z-index also does not apply to static elements.
+By default(top, right, bottom, left/z-index has no effect)
+2.Relative – 
+relative is positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+Element is relative to itself.(All will work)
+3.Absolute –
+Absolute positioning defines the position of a given bounding box from the top and left side margins of the web page. This not only allows objects to be placed in an exact location, it also allows objects to be placed one on top of another.
+Position relative to its closest an cestor (removed from  document flow)
+4.fixed  -
+An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+Position relative to browser (removed from the document flow)
+5.Sticky- 
+An element with position: sticky; is positioned based on the user's scroll position. A sticky element toggles between relative and fixed , depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position: fixed).
+Position fixed on user scroll
+
+
+
+
+
+
+
+
